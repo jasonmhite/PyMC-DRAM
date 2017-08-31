@@ -47,7 +47,7 @@ This recreates the results of Example 8.2 in *Uncertainty Quantification:
 Theory, Implementation, and Applications* by Ralph Smith.
 
 To get a list of parameters you can pass to the sampler, see the docstring
-(`help(DRAM)` in the interpreter or browse the [source](pymc_dram/dram.py).
+(`help(DRAM)` in the interpreter or browse the [source](pymc_dram/dram.py)).
 The default parameters should be fine for most users.
 
 Notes
