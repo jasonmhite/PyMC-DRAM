@@ -33,7 +33,7 @@ M = P.MCMC(mvars)
 
 M.use_step_method(
     DRAM,
-    [x for (x, i) in mvars.items()],
+    [x for (_, x) in mvars.items()],
 )
 
 M.sample(NS, burn=NS / 2.)
