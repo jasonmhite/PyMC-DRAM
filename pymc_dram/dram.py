@@ -336,7 +336,7 @@ class DRAM(pymc.AdaptiveMetropolis):
                     print_('Second proposed value: ', self.stoch2array())
                     print_('Second proposed likelihood: ', logp_p2)
                 
-                if np.log(random()) < logalpha_02:
+                if np.log(np.random.random()) < logalpha_02:
                     accept = True
                     self.rejected_then_accepted += 1
                     logp_p = logp_p2
